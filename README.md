@@ -5,7 +5,7 @@
 2. nilai n diisi pada saat runtime
 3. anda bisa menggunakan kombinasi while dan for untuk menyelesaikannya
 4. gunakan fungsi random() yang dapat diimport terlebih dahulu
-- Program input
+- Program input<p>
     from random import random
     n = int(input("Masukkan nilai N: "))
     for i in range(n):
