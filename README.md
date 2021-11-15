@@ -43,6 +43,20 @@ max () adalah fungsi bulid-in untuk mencari nilai tertinggi<p>
 ![Gambar 04](Image/HasilNilaiTerbesar.PNG)
 <p>
 
+## Latihan 3
+### Program perulangan bertingkat
+- <b>Program input</b><p>
+```bash
+for i in range(0, 10):
+  for j in range(10):
+    print('%3d'%(i+j), end = ' ')
+  print(' ')
+```
+![Gambar 07](Image/PerulanganBertingkat.PNG)
+- <b>Hasil program</b><p>
+![Gambar 08](Image/HasilPerulanganBertingkat.PNG)
+<p>
+
 ## Program 1
 ### program sederhana dengan perulangan
 - <b>Seorang pengusaha menginvestasikan uangnya untuk memulai usahanya dengan modal awal 100 juta, pada bulan pertama dan kedua belum mendapatkan laba. pada bulan ketiga baru mulai mendapatkan laba sebesar 1% dan pada bulan ke 5, pendapatan meningkat 5%, selanjutnya pada bulan ke 8 mengalami penurunan keuntungan sebesar 2%, sehingga laba menjadi 3%. Hitung total keuntungan selama 8 bulan berjalan usahanya.</b><p>
