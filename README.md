@@ -18,7 +18,7 @@ for i in range(n):
 print("Selesai")
 ```
 ![Gambar 01](Image/NilaiRandom.PNG)<P>
-- Hasil program<p>
+- <b>Hasil program</b><p>
 ![Gambar 02](Image/HasilNilaiRandom.PNG)<P>
 <p>
 
@@ -37,7 +37,34 @@ while True:
 print("Bilangan terbesar adalah: ",max)
 ```
 ![Gambar 03](Image/NilaiTerbesar.PNG)<p>
-- penjelasan<p>
+- <b>penjelasan</b><p>
 max () adalah fungsi bulid-in untuk mencari nilai tertinggi<p>
 - <b>Hasil Program</b><p>
 ![Gambar 04](Image/HasilNilaiTerbesar.PNG)
+<p>
+
+## Program 1
+### program sederhana dengan perulangan
+- <b>Seorang pengusaha menginvestasikan uangnya untuk memulai usahanya dengan modal awal 100 juta, pada bulan pertama dan kedua belum mendapatkan laba. pada bulan ketiga baru mulai mendapatkan laba sebesar 1% dan pada bulan ke 5, pendapatan meningkat 5%, selanjutnya pada bulan ke 8 mengalami penurunan keuntungan sebesar 2%, sehingga laba menjadi 3%. Hitung total keuntungan selama 8 bulan berjalan usahanya.</b><p>
+- <b>program input</b><p>
+```bash
+a = 100000000
+for i in range(1, 9):
+    if (i >= 1 and i <= 2):
+        b = a * 0
+        print("Laba bulan ke- ", i, "Sebesar: ", b)
+    if (i >= 3 and i <= 4):
+        c = a * 0.1
+        print("Laba bulan ke- ", i, "sebesar: ", c)
+    if (i >= 5 and i <= 7):
+        d = a * 0.5
+        print("Laba bulan ke- ", i, "sebesar: ", d)
+    if (i == 8):
+        e = a * 0.2
+        print("Laba bulan ke- ", i, "sebesar: ", e)
+        total = b + b + c + c + d + d + d + e
+        print = ("\nTotal : ", total)
+```
+![Gambar 05](Image/Hitung.PNG)
+- <b>Hasil program</b><p>
+![Gambar 06](Image/HasilHitung.PNG)
