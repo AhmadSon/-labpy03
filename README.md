@@ -82,3 +82,6 @@ for i in range(1, 9):
 ![Gambar 05](Image/Hitung.PNG)
 - <b>Hasil program</b><p>
 ![Gambar 06](Image/HasilHitung.PNG)
+<p>
+
+# Terima Kasih
