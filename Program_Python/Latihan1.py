@@ -1,3 +1,4 @@
+# program nilai random
 from random import random
 n = int(input("Masukkan nilai N: "))
 for i in range(n):
