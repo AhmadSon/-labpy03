@@ -19,4 +19,4 @@
 ![Gambar 01](Image/NilaiRandom.PNG)<P>
 - Hasil program<p>
 ![Gambar 02](Image/HasilNilaiRandom.PNG)<P>
-> tes
+(tes)
