@@ -16,6 +16,7 @@ for i in range(n):
             break
     print("data ke: ",i, "=>",n)
 print("Selesai")
+```
 ![Gambar 01](Image/NilaiRandom.PNG)<P>
 - Hasil program<p>
 ![Gambar 02](Image/HasilNilaiRandom.PNG)<P>
